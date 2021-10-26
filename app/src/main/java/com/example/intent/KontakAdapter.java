@@ -16,6 +16,7 @@ public class KontakAdapter extends ArrayAdapter<KontakSuper> {
 
     private static class ViewHolder {
         TextView nama, nomor;
+        Button telpon;
     }
 
     public KontakAdapter(@NonNull Context context, int resource,
@@ -31,9 +32,9 @@ public class KontakAdapter extends ArrayAdapter<KontakSuper> {
             ConvertView = LayoutInflater.from(getContext()).inflate(R.layout.tv_kontak, parent,false);
             viewKontak.nama = ConvertView.findViewById(R.id.nama);
             viewKontak.nomor = ConvertView.findViewById(R.id.nomor);
-
+            viewKontak.telpon = ConvertView.findViewById(R.id.telpon);
             ConvertView.setTag(viewKontak);
-            Button btn = ConvertView.findViewById(R.id.btn);
+            Button btn = ConvertView.findViewById(R.id.telpon);
             btn.setTag(position);
         }
         else {

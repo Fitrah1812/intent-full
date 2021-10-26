@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Intent</string>
+    <string name="app_name">Aplikasi Lengkap</string>
     <string name="tambah_data">Tambah Data</string>
     <string name="buka_kontak">Buka Kontak</string>
     <string name="buka_musik">Buka Musik</string>
@@ -35,9 +35,9 @@
     <string name="longitude">Longitude</string>
     <string name="_0">0</string>
     <string name="locate">Locate</string>
-    <string name="buka_maps_1">Buka Maps 1</string>
-    <string name="buka_maps_2">Buka Maps 2</string>
-    <string name="buka_maps_3">Buka Maps 3</string>
+    <string name="buka_maps_1">Task 1 Maps</string>
+    <string name="buka_maps_2">Task 2 Maps</string>
+    <string name="buka_maps_3">Task 3 Maps</string>
     <string name="masukkan_di_sini">Masukkan di sini</string>
     <string name="zoom">Zoom</string>
     <string name="normal">Normal</string>

@@ -13,47 +13,47 @@
         android:layout_centerHorizontal="true"
         android:text="@string/buka_kontak"/>
 
-    <Button
-        android:id="@+id/buka_youtube"
-        android:layout_marginTop="20dp"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/buka_kontak"
-        android:text="@string/buka_youtube"/>
+<!--    <Button-->
+<!--        android:id="@+id/buka_youtube"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@+id/buka_kontak"-->
+<!--        android:text="@string/buka_youtube"/>-->
 
-    <Button
-        android:id="@+id/buka_galeri"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/buka_youtube"
-        android:layout_marginTop="20dp"
-        android:text="@string/buka_galeri"/>
+<!--    <Button-->
+<!--        android:id="@+id/buka_galeri"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@+id/buka_youtube"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/buka_galeri"/>-->
 
     <Button
         android:id="@+id/buka_browser"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/buka_galeri"
+        android:layout_below="@+id/buka_kontak"
         android:layout_marginTop="20dp"
         android:text="@string/buka_browser"/>
 
-    <Button
-        android:id="@+id/buka_fragment"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/buka_browser"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:text="@string/try_fragment"/>
+<!--    <Button-->
+<!--        android:id="@+id/buka_fragment"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/buka_browser"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="try_fragment"/>-->
 
     <Button
         android:id="@+id/buka_maps"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/buka_fragment"
+        android:layout_below="@+id/buka_browser"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="@string/buka_maps_1"/>
@@ -75,5 +75,16 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="@string/buka_maps_3" />
+
+    <EditText
+        android:id="@+id/mEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="HowsApp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
 </RelativeLayout>

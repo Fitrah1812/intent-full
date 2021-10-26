@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toEndOf="@+id/delete_data"
-        android:text="@string/tutup"/>
+        android:text="Kembali Menu Utama"/>
 
     <ListView
         android:id="@+id/listView"
