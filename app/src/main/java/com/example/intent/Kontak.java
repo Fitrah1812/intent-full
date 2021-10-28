@@ -238,7 +238,7 @@ public class Kontak extends AppCompatActivity {
 
         class ViewHolder {
             TextView nama, nomor;
-            Button telpon;
+            Button telpon, detail;
         }
 
         public kontakAdapterudin(@NonNull Context context, int resource,
@@ -255,6 +255,7 @@ public class Kontak extends AppCompatActivity {
                 viewKontak.nama = ConvertView.findViewById(R.id.nama);
                 viewKontak.nomor = ConvertView.findViewById(R.id.nomor);
                 viewKontak.telpon = ConvertView.findViewById(R.id.telpon);
+                viewKontak.detail = ConvertView.findViewById(R.id.detail);
                 ConvertView.setTag(viewKontak);
                 viewKontak.telpon.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -266,6 +267,19 @@ public class Kontak extends AppCompatActivity {
                         Toast.makeText(getContext(), "Button was clicked" + position, Toast.LENGTH_SHORT).show();
                     }
                 });
+
+                viewKontak.detail.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        KontakSuper temp = uAdapter.getItem(position);
+                        Intent intentku = new Intent(getBaseContext(), detailaktifitas.class);
+                        intentku.putExtra("nama", temp.getNama());
+                        intentku.putExtra("nohp", temp.getNomor());
+                        startActivityForResult(intentku, 0);
+                    }
+                });
+
+
                 Button btn = ConvertView.findViewById(R.id.telpon);
                 btn.setTag(position);
             }

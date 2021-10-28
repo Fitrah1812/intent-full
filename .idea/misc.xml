@@ -34,12 +34,15 @@
         <entry key="..\:/Users/arier/AndroidStudioProjects/Intent_Android_PPB-A/app/src/main/res/drawable/ic_baseline_remove_red_eye.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/arier/AndroidStudioProjects/Intent_Android_PPB-A/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/arier/AndroidStudioProjects/Intent_Android_PPB-A/app/src/main/res/drawable/ic_person_add.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/arier/AndroidStudioProjects/Intent_Android_PPB-A/app/src/main/res/layout/activity_detailaktifitas.xml" value="0.16" />
         <entry key="..\:/Users/arier/AndroidStudioProjects/Intent_Android_PPB-A/app/src/main/res/layout/activity_kontak.xml" value="0.1" />
         <entry key="..\:/Users/arier/AndroidStudioProjects/Intent_Android_PPB-A/app/src/main/res/layout/activity_main.xml" value="0.15555555555555556" />
         <entry key="..\:/Users/arier/AndroidStudioProjects/Intent_Android_PPB-A/app/src/main/res/layout/activity_maps.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/arier/AndroidStudioProjects/Intent_Android_PPB-A/app/src/main/res/layout/activity_maps2.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/arier/AndroidStudioProjects/Intent_Android_PPB-A/app/src/main/res/layout/activity_maps3.xml" value="0.1" />
+        <entry key="..\:/Users/arier/AndroidStudioProjects/Intent_Android_PPB-A/app/src/main/res/layout/detailkontak.xml" value="0.176" />
         <entry key="..\:/Users/arier/AndroidStudioProjects/Intent_Android_PPB-A/app/src/main/res/layout/input_kontak.xml" value="0.1" />
-        <entry key="..\:/Users/arier/AndroidStudioProjects/Intent_Android_PPB-A/app/src/main/res/layout/tv_kontak.xml" value="0.264" />
+        <entry key="..\:/Users/arier/AndroidStudioProjects/Intent_Android_PPB-A/app/src/main/res/layout/tv_kontak.xml" value="0.4" />
       </map>
     </option>
   </component>

@@ -12,15 +12,22 @@
 
     <TextView
         android:id="@+id/nama"
-        android:layout_width="101dp"
+        android:layout_width="67dp"
         android:layout_height="wrap_content"
         android:text="Nama" />
 
     <TextView
         android:id="@+id/nomor"
-        android:layout_width="160dp"
+        android:layout_width="112dp"
         android:layout_height="wrap_content"
         android:text="No Hp" />
+
+    <Button
+        android:id="@+id/detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="detail" />
 
     <Button
         android:id="@+id/telpon"
